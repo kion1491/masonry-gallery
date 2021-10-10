@@ -1,0 +1,24 @@
+section{
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+#columns{
+    column-width:250px;
+    column-gap: 5px;
+}
+
+#columns figure{
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 35px;
+    padding-bottom: 0 !important;
+    height: max-content;
+}
+
+#columns figure img{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
