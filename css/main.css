@@ -8,6 +8,17 @@ section{
     column-gap: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    html, body{
+        font-size: 10px;
+    }
+
+    #columns{
+        column-width: 100px;
+    }
+}
+
+
 #columns figure{
     width: 100%;
     display: inline-block;
