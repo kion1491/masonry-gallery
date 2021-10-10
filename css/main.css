@@ -11,7 +11,7 @@ section{
 #columns figure{
     width: 100%;
     display: inline-block;
-    margin: 0 0 35px;
+    margin: 0;
     height: max-content;
 }
 
