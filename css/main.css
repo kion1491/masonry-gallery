@@ -10,25 +10,13 @@ section header h1{
 
 #columns{
     column-width:250px;
-    column-gap: 5px;
+    column-gap: 10px;
 }
-
-@media screen and (max-width: 768px) {
-    html, body{
-        font-size: 10px;
-    }
-
-    #columns{
-        column-width: 100px;
-    }
-}
-
 
 #columns figure{
     width: 100%;
     display: inline-block;
-    margin: 0;
-    height: max-content;
+    margin: 0 0 5px;
 }
 
 #columns figure img{
@@ -78,4 +66,17 @@ div.dimmed img{
 }
 
 
+@media screen and (max-width: 768px) {
+    html, body{
+        font-size: 10px;
+    }
 
+    #columns{
+        column-width: 100px;
+        column-gap: 8px;
+    }
+
+    #columns figure{
+        margin: 0 0 5px;
+    }
+}
