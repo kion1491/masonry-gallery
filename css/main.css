@@ -3,6 +3,11 @@ section{
     margin: 0 auto;
 }
 
+section header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
 #columns{
     column-width:250px;
     column-gap: 5px;
